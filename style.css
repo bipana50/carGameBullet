@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    width: 50%;
+    height: 209px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.wrapper{
+width: 100%;
+height: 600%;
+margin-right: auto;
+margin-left: auto;
+position: absolute;
+z-index: -1;
+bottom: 0px;
+}
+
+.lane{
+    background-image: url('shortLane.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 209px;
+}
+.car{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    top: 175px;
+    left: 55px;
+}
+.otherCar{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: rgb(103, 77, 151);
+    top: 175px;
+    left: 95px;
+  
+}
+.bulletElem{
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: red;
+    top: 175px;
+    left: 55px;
+  
+}
+.clearfix:after, .clearfix::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.float-left{
+float: left;
+}
+
+.gameOver{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.score, .btn{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
